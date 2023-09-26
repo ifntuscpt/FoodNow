@@ -29,7 +29,7 @@
           </ul>
         </div>
       </div>
-      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-warning">Register</button>
     </nav>
     <!-- end navbar -->
 
@@ -98,8 +98,8 @@
     <!-- custom pizza -->
     <section class="menu py-5" id="menu">
       <div class="container">
-        <h1 class="section-title text-center h3">Custom Pizza</h1>
-        <div class="row justify-content-center gy-3">
+        <h1 class="section-title text-left h3">Custom Pizza</h1>
+        <div class="row justify-content-left gy-3">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
             <label class="form-check-label" for="flexRadioDefault1">
@@ -118,6 +118,27 @@
               Large (+7$)
             </label>
           </div>
+        </div>
+      </div>
+      <div class="container">
+        <h1 class="section-title text-left h3">Toppings</h1>
+        <div class="row justify-content-left">
+      <div class="row">
+          <button type="button" class="btn btn-outline-secondary" checked>Avocado</button>
+          <button type="button" class="btn btn-outline-secondary">Brocoli</button>
+          <button type="button" class="btn btn-outline-secondary">Onions</button>
+          <button type="button" class="btn btn-outline-secondary">Zucchini</button>
+          <button type="button" class="btn btn-outline-secondary">Lobster</button>
+          <button type="button" class="btn btn-outline-secondary">Oyster</button>
+        </div>
+        </div>
+        <div class="row">
+          <button type="button" class="btn btn-outline-secondary" checked>Salmon</button>
+          <button type="button" class="btn btn-outline-secondary">Tuna</button>
+          <button type="button" class="btn btn-outline-secondary">Bacon</button>
+          <button type="button" class="btn btn-outline-secondary">Duck</button>
+          <button type="button" class="btn btn-outline-secondary">Ham</button>
+          <button type="button" class="btn btn-outline-secondary">Sausage</button>
         </div>
       </div>
     </section>
